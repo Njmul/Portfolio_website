@@ -1,0 +1,111 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.btn{
+
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    width: 208px;
+height: 66px;
+
+}
+
+#hero{
+
+    height: 652px;
+    background-image: url(../images/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#hero .hero-content{
+    margin: 0 auto;
+    position: absolute;
+    width: 998px;
+    height: 582px;
+    left: 221px;
+    right: 221px;
+    top: 48px;
+    bottom: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.title{
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+    position: static;
+    width: 998px;
+    height: 136px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px
+
+}
+
+.subtitle{
+
+    position: static;
+    width: 852px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 73px;
+    padding-right: 73px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
